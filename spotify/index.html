@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Playlist</h2>
+      <ul>
+        <li>On My Way</li>
+        <li>Alan Walker - Fade</li>
+        <li>Cartoon - On & On</li>
+        <li>Warriyo - Mortals</li>
+        <li>Ertugrul Gazi</li>
+        <li>Electronic Music</li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="header">
+        <h1>Discover</h1>
+        <input type="text" placeholder="Search music...">
+      </div>
+      <div class="popular">
+        <h2>Popular Songs</h2>
+        <div class="songs">
+          <div class="song">Song 1</div>
+          <div class="song">Song 2</div>
+          <div class="song">Song 3</div>
+          <div class="song">Song 4</div>
+        </div>
+      </div>
+      <div class="player">
+        <button id="play-pause">Play</button>
+        <input type="range" id="progress-bar" min="0" max="100" value="0">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
